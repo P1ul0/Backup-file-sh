@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Diretorio que deseja efetuar  o  backup
-backup_path="/Caminho"
+backup_path="$1"
 
 
 # Caminho que deseja armazenar o backup.
-external_storage="/Caminho"
+external_storage="$2"
 
 # Formato da Data .
 date_format=$(date "+%d-%m-%Y")
@@ -14,7 +14,7 @@ date_format=$(date "+%d-%m-%Y")
 final_archive="backup-$date_format.tar.gz"
 
 # Log
-log_file="/Caminho"
+log_file="$3"
 
 ##############
 #Testes
