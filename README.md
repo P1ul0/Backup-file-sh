@@ -38,7 +38,7 @@ sdc             8:32
   git clone https://github.com/P1ul0/Backup-file-sh.git
 ```
 
-### PARA ACESSAR O USUÁRIO ROOT DIGITE COMANDO ABAIXO E DIGITE SUA SENHA DE USUÁRIO : 
+### PARA UTILIZAR O SCRIPT TEREMOS QUE ACESSAR O USUÁRIO ROOT : 
 
 ```
  sudo su -
