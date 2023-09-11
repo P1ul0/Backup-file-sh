@@ -34,6 +34,7 @@ sdc             8:32
 -----------------------------------------------------------------------------------------------
 
 ## PARA UTILIZAR O SCRIPT CLONE O REPOSITORIO :
+### PARA EXEMPLO UTILIZAREMOS O DIRETORIO DOCUMENTS PARA O CLONE :
 ```
   git clone https://github.com/P1ul0/Backup-file-sh.git
 ```
@@ -47,19 +48,18 @@ sdc             8:32
 ### ACESSE O DIRETORIO :
 
 ```
-  cd /DiretorioQueFezoClone/Backup-file-sh
+  cd /Documents/Backup-file-sh
 ```
 
 ## RODE O ARQUIVO backup-completo-example.sh COM O COMANDO ABAIXO :
 
 ###### POSIÇÃO 1 : DIRETORIO QUE DESEJA FAZER O BACKUP
 ###### POSIÇÃO 2 : DIRETORIO QUE ARMAZENAR BACKUP
-###### POSIÇÃO 3 : ARQUIVO PARA ARMAZENAR OS LOG
 
 ## SIGA O EXEMPLO ABAIXO
 
 ```
-  bash backup-completo-example.sh "/home/$User/Documents" "/mnt/backup" "/var/log/backup.log"
+  bash backup-completo-example.sh "/home/$User/Documents" "/mnt/backup" 
 ```
 
 ### PARA SABER SE O BACKUP FOI REALIZADO COM SUCESSO DIGITE O COMANDO ABAIXO :
