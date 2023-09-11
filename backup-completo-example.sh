@@ -14,7 +14,7 @@ date_format=$(date "+%d-%m-%Y")
 final_archive="backup-$date_format.tar.gz"
 
 # Log
-log_file="$3"
+log_file="/var/log/backup.log"
 
 ##############
 #Testes
